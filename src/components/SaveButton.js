@@ -1,5 +1,5 @@
 import React from 'react'
-import PropTypes from 'prop-types'
+// import PropTypes from 'prop-types'
 
 function SaveButton(props) {
     return (
@@ -11,9 +11,10 @@ function SaveButton(props) {
                 {props.text}</button>   
         </div>
     )
-}SaveButton.propTypes = {
-    btnClick:PropTypes.func,
 }
+// SaveButton.propTypes = {
+//     btnClick:PropTypes.func,
+// }
 
 export default SaveButton
 
